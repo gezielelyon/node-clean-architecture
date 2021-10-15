@@ -5,6 +5,8 @@
   "author": "gezielelyon <geziel_barbosa_hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "git-commit-msg-linter": "^3.2.8"
+    "@types/node": "^16.11.0",
+    "git-commit-msg-linter": "^3.2.8",
+    "typescript": "^4.4.4"
   }
 }
