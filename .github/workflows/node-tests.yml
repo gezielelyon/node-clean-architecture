@@ -1,7 +1,7 @@
 name: Node Tests Actions
 on: [push]
-jobs: 
+jobs:
   Node Tests Actions:
     runs-on: ubuntu-latest
-
-
+    steps:
+      - run: "npm run test"
