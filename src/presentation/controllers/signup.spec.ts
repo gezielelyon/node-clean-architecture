@@ -1,4 +1,5 @@
-import { SignUpController } from './signup'
+import { SignUpController } from './signUp'
+import { MissingParamError } from '../errors/missingParamError'
 
 describe('SignUp Controller', () => {
   test('Should return status code 400 if no name is provided', async () => {
@@ -14,7 +15,7 @@ describe('SignUp Controller', () => {
     const httpResponse = await sut.handle(httpRequest)
 
     expect(httpResponse.statusCode).toBe(400)
-    expect(httpResponse.body).toEqual(new Error('Missing param: name'))
+    expect(httpResponse.body).toEqual(new MissingParamError('name'))
   })
 
   test('Should return status code 400 if no email is provided', async () => {
@@ -30,6 +31,6 @@ describe('SignUp Controller', () => {
     const httpResponse = await sut.handle(httpRequest)
 
     expect(httpResponse.statusCode).toBe(400)
-    expect(httpResponse.body).toEqual(new Error('Missing param: email'))
+    expect(httpResponse.body).toEqual(new MissingParamError('email'))
   })
 })
