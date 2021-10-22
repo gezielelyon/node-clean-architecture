@@ -4,7 +4,7 @@
     "activityBar.activeBorder": "#FbF9FB",
     "activityBar.foreground": "#FbF9FB",
     "titleBar.activeBackground": "#988BC7",
-    "titleBar.activeForeground": "#191622",
+    "titleBar.activeForeground": "#FbF9FB",
     "window.activeBorder": "#988BC7",
   }
 }
