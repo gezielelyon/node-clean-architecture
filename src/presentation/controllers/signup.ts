@@ -1,5 +1,5 @@
 import { IController, IHttpRequest, IHttpResponse, IEmailValidator } from '../protocols'
-import { InvalidParamError, MissingParamError, ServerError } from '../errors'
+import { InvalidParamError, MissingParamError } from '../errors'
 import { badRequest, serverError } from '../helpers'
 
 export class SignUpController implements IController {

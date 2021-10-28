@@ -7,14 +7,28 @@ interface ISutResponse {
   emailValidatorStub: IEmailValidator
 }
 
-const makeSut = (): ISutResponse => {
+const makeEmailValidatorStub = (): IEmailValidator => {
   class EmailValidatorStub implements IEmailValidator {
     isValid (email: string): boolean {
       return true
     }
   }
 
-  const emailValidatorStub = new EmailValidatorStub()
+  return new EmailValidatorStub()
+}
+
+const makeEmailValidatorStubWithError = (): IEmailValidator => {
+  class EmailValidatorStub implements IEmailValidator {
+    isValid (email: string): boolean {
+      throw new Error()
+    }
+  }
+
+  return new EmailValidatorStub()
+}
+
+const makeSut = (): ISutResponse => {
+  const emailValidatorStub = makeEmailValidatorStub()
   const sut = new SignUpController(emailValidatorStub)
 
   return {
@@ -126,13 +140,7 @@ describe('SignUp Controller', () => {
   })
 
   test('Should be returned status code 500 if emailValidator throws', async () => {
-    class EmailValidatorStub implements IEmailValidator {
-      isValid (email: string): boolean {
-        throw new ServerError()
-      }
-    }
-
-    const emailValidatorStub = new EmailValidatorStub()
+    const emailValidatorStub = makeEmailValidatorStubWithError()
     const sut = new SignUpController(emailValidatorStub)
 
     const httpRequest = {
