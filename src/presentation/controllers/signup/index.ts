@@ -41,6 +41,8 @@ export class SignUpController implements IController {
 
       return successResponse(account)
     } catch (err) {
+      console.error(err)
+
       return serverError()
     }
   }
