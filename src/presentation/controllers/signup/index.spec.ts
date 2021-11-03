@@ -14,7 +14,7 @@ const makeEmailValidatorStub = (): IEmailValidator => {
 
 const makeAddAccount = (): IAddAccount => {
   class AddAccountStub implements IAddAccount {
-    add (account: IAddAccountModel): IAccountModel {
+    async add (account: IAddAccountModel): Promise<IAccountModel> {
       const fakeAccount = {
         id: 'valid_id',
         name: 'valid_name',
@@ -22,7 +22,7 @@ const makeAddAccount = (): IAddAccount => {
         password: 'valid_password'
       }
 
-      return fakeAccount
+      return await new Promise((resolve) => { resolve(fakeAccount) })
     }
   }
 
@@ -191,8 +191,8 @@ describe('SignUp Controller', () => {
   test('Should be returned status code 500 if AddAccount throws', async () => {
     const { sut, addAccountStub } = makeSut()
 
-    jest.spyOn(addAccountStub, 'add').mockImplementationOnce(() => {
-      throw new Error()
+    jest.spyOn(addAccountStub, 'add').mockImplementationOnce(async () => {
+      return await new Promise((resolve, reject) => reject(new Error()))
     })
 
     const httpRequest = {
