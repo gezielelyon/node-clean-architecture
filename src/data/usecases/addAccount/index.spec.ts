@@ -66,9 +66,7 @@ describe('DbAddAccount UseCase', () => {
   test('Should throws if Encrypter throw', async () => {
     const { encrypterStub, sut } = makeSut()
 
-    jest.spyOn(encrypterStub, 'encrypt').mockImplementation(async () => {
-      return await new Promise((resolve, reject) => reject(new Error()))
-    })
+    jest.spyOn(encrypterStub, 'encrypt').mockResolvedValueOnce(new Promise((resolve, reject) => reject(new Error())))
 
     const accountParams = {
       name: 'valid_name',
