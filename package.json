@@ -5,8 +5,10 @@
   "author": "gezielelyon <geziel_barbosa_hotmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^2.1.1",
     "@types/bcrypt": "^5.0.0",
     "@types/jest": "^27.0.2",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^16.11.0",
     "@types/validator": "^13.7.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -32,6 +34,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "mongodb": "^4.2.2",
     "validator": "^13.7.0"
   }
 }
