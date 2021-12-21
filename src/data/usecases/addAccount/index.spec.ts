@@ -3,7 +3,7 @@ import { DbAddAccount } from './index'
 
 const makeEncrypterStub = (): IEncrypter => {
   class EncrypterStub implements IEncrypter {
-    async encrypt (password: string): Promise<string> {
+    async encrypt (value: string): Promise<string> {
       return await new Promise((resolve, reject) => resolve('hashed_password'))
     }
   }
