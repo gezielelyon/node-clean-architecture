@@ -1,13 +1,14 @@
-![GitHub issues](https://img.shields.io/github/issues/programador404/NodeJs-Apollo-Typegraphql)
-![GitHub forks](https://img.shields.io/github/forks/programador404/NodeJs-Apollo-Typegraphql)
-![GitHub stars](https://img.shields.io/github/stars/programador404/NodeJs-Apollo-Typegraphql)
-![GitHub license](https://img.shields.io/github/license/programador404/NodeJs-Apollo-Typegraphql)
+![GitHub issues](https://img.shields.io/github/issues/programador404/Node-CleanArchitecture)
+![GitHub forks](https://img.shields.io/github/forks/programador404/Node-CleanArchitecture)
+![GitHub stars](https://img.shields.io/github/stars/programador404/Node-CleanArchitecture)
+![GitHub license](https://img.shields.io/github/license/programador404/Node-CleanArchitecture)
 ![NodeJs](https://img.shields.io/badge/NodeJs-backend-red)
 ![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-blue)
 ![GraphQL](https://img.shields.io/badge/Type-graphql-yellow)
 
 ![logo](https://user-images.githubusercontent.com/48457700/137720143-799c4a9f-2a08-4dc3-8adb-ca41b4787d15.png)
 
+![NodeMangoArch](https://user-images.githubusercontent.com/48457700/145805552-d190b3ea-085c-4f94-801c-6cb350c35f2b.PNG)
 
 # Node Clean Architecture
 This is a project create with NodeJs using Clean Architecture
