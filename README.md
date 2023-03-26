@@ -16,7 +16,7 @@
 ![Typescript](https://img.shields.io/badge/Typescript-Typing-blue)
 ![NodeJS](https://img.shields.io/badge/NodeJS-Components-orange)
 ![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-pink)
-![MongoDB](https://img.shields.io/badge/MongoDB-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
 
 </div>
 
