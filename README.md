@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-# **Next Podcastr**
+# **NodeJS Clean Architecture**
 
 </div>
 
