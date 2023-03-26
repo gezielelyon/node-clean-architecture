@@ -1,19 +1,55 @@
-![GitHub issues](https://img.shields.io/github/issues/programador404/node_clean_architecture)
-![GitHub forks](https://img.shields.io/github/forks/programador404/node_clean_architecture)
-![GitHub stars](https://img.shields.io/github/stars/programador404/node_clean_architecture)
-![GitHub license](https://img.shields.io/github/license/programador404/node_clean_architecture)
-![NodeJs](https://img.shields.io/badge/NodeJs-backend-red)
-![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-blue)
-![GraphQL](https://img.shields.io/badge/Type-graphql-yellow)
+<div align='justify'>
 
-![logo](https://user-images.githubusercontent.com/48457700/137720143-799c4a9f-2a08-4dc3-8adb-ca41b4787d15.png)
+<div align='center'>
 
-![NodeMangoArch](https://user-images.githubusercontent.com/48457700/145805552-d190b3ea-085c-4f94-801c-6cb350c35f2b.PNG)
+# **Next Podcastr**
 
-# Node Clean Architecture
-This is a project create with NodeJs using Clean Architecture.
+</div>
 
-> ## Principles
+<div align='center'>
+
+![GitHub issues](https://img.shields.io/github/issues/gezielelyon/next_podcastr)
+![GitHub forks](https://img.shields.io/github/forks/gezielelyon/next_podcastr)
+![GitHub starts](https://img.shields.io/github/stars/gezielelyon/next_podcastr)
+![GitHub license](https://img.shields.io/github/license/gezielelyon/next_podcastr)
+![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
+![Typescript](https://img.shields.io/badge/Typescript-Typing-blue)
+![NodeJS](https://img.shields.io/badge/NodeJS-Components-orange)
+![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-pink)
+![MongoDB](https://img.shields.io/badge/MongoDB-green)
+
+</div>
+
+![Logo](https://user-images.githubusercontent.com/48457700/137720143-799c4a9f-2a08-4dc3-8adb-ca41b4787d15.png)
+
+## **Summary**
+- [About the project](#about-the-project)
+- [Technologies](#technologies)
+- [Images](#images)
+- [Principles](#principles)
+- [Design Patterns](#design-patterns)
+- [Methodologies and Designs](#methodologies-and-designs)
+- [Libraries and Tools](#libraries-and-tools)
+- [NodeJS Features](#nodejs-features)
+- [GraphQL Features](#graphql-features)
+- [Typescript Features](#typescript-features)
+- [Tests Features](#tests-features)
+- [MongoDB Features](#mongodb-features)
+
+## **About the project**
+This repository contains a project with the best practices, principles and patterns using NodeJS.
+
+## **Technologies**
+The technologies used on the project development are listed below.
+
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Typescript](https://www.typescriptlang.org/)
+- [NodeJS](https://nodejs.org/en)
+
+## **Images**
+![Image](https://user-images.githubusercontent.com/48457700/145805552-d190b3ea-085c-4f94-801c-6cb350c35f2b.PNG)
+
+## Principles
 
 * Single Responsibility Principle (SRP)
 * Open Closed Principle (OCP)
@@ -27,7 +63,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Composition Over Inheritance
 * Small Commits
 
-> ## Design Patterns
+## Design Patterns
 
 * Factory
 * Adapter
@@ -40,7 +76,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Builder
 * Singleton
 
-> ## Methodologies e Designs
+## Methodologies and Designs
 
 * TDD
 * Clean Architecture
@@ -54,7 +90,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Continuous Delivery
 * Continuous Deployment
 
-> ## Libs e Tools
+## Libraries and Tools
 
 * NPM
 * Typescript
@@ -91,7 +127,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Bson ObjectId
 * Apollo Server Integration Testing
 
-> ## Node Features
+## NodeJS Features
 
 * API Documentation with Swagger
 * API Rest with Express
@@ -104,7 +140,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Deploy on Heroku
 * Server Static Files
 
-> ## GraphQL Features
+## GraphQL Features
 
 * Types
 * Queries
@@ -117,19 +153,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Type Definitions
 * Error Handling
 
-> ## Git Features
-
-* Alias
-* Log Personalizado
-* Branch
-* Reset
-* Amend
-* Tag
-* Stash
-* Rebase
-* Merge
-
-> ## Typescript Features
+## Typescript Features
 
 * POO Advanced
 * Interface
@@ -142,7 +166,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Deploy
 * Breakpoints usage
 
-> ## Tests Features
+## Tests Features
 
 * Unit Testes
 * Integration Testes (API Rest & GraphQL)
@@ -152,7 +176,7 @@ This is a project create with NodeJs using Clean Architecture.
 * Spies
 * Fakes
 
-> ## MongoDb Features
+## MongoDB Features
 
 * Connect e Reconnect
 * Collections
@@ -165,3 +189,6 @@ This is a project create with NodeJs using Clean Architecture.
 * Upsert e ReturnOriginal
 * Push, Divide, Multiply, ArrayElemAt, Cond, Sum
 * Filter, Map, Reduce, MergeObjects, ConcatArrays
+
+<kbd>[&uarr; Summary](#summary)</kbd>
+</div>
