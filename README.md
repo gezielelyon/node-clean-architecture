@@ -8,10 +8,10 @@
 
 <div align='center'>
 
-![GitHub issues](https://img.shields.io/github/issues/gezielelyon/next_podcastr)
-![GitHub forks](https://img.shields.io/github/forks/gezielelyon/next_podcastr)
-![GitHub starts](https://img.shields.io/github/stars/gezielelyon/next_podcastr)
-![GitHub license](https://img.shields.io/github/license/gezielelyon/next_podcastr)
+[![GitHub issues](https://img.shields.io/github/issues/gezielelyon/node-clean-architecture)](https://github.com/gezielelyon/node-clean-architecture/issues)
+[![GitHub forks](https://img.shields.io/github/forks/gezielelyon/node-clean-architecture)](https://github.com/gezielelyon/node-clean-architecture/network)
+[![GitHub stars](https://img.shields.io/github/stars/gezielelyon/node-clean-architecture)](https://github.com/gezielelyon/node-clean-architecture/stargazers)
+[![GitHub license](https://img.shields.io/github/license/gezielelyon/node-clean-architecture)](https://github.com/gezielelyon/node-clean-architecture)
 ![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
 ![Typescript](https://img.shields.io/badge/Typescript-Typing-blue)
 ![NodeJS](https://img.shields.io/badge/NodeJS-Components-orange)
